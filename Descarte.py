@@ -6,7 +6,7 @@ pyautogui.PAUSE=0.3
 time.sleep(5)
 
 
-for i in range(3):
+for i in range(17):
     pyautogui.hotkey('ctrl','c')
     registro = pyperclip.paste()
     pyautogui.press('right')
